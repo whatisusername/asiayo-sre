@@ -1,0 +1,39 @@
+# Ignore all files by default, but scan all directories
+*
+!*/
+
+# Repository files
+!/.gitignore
+!/.gitattributes
+!/.editorconfig
+
+# Golang
+!go.mod
+!*.go
+
+# Terraform
+!*.tf
+
+# Configuration and markup files
+!*.json
+!*.yaml
+!*.yml
+
+# Documentation
+!*.txt
+!*.md
+!README
+!AUTHORS
+!LICENSE
+
+# Build entry points
+!/Makefile
+
+# IDE settings and generated project files
+.vscode/
+.idea/
+
+# Temporary and operating-system files
+*~
+.DS_Store
+[Dd]esktop.ini
