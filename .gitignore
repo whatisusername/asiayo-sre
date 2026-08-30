@@ -21,6 +21,9 @@
 !*.yaml
 !*.yml
 
+# SQL
+!*.sql
+
 # Documentation
 !*.txt
 !*.md
