@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: wordpress
+  namespace: asiayo
+  labels:
+    app: wordpress
+spec:
+  selector:
+    app: wordpress
+  ports:
+  - port: 80
+  type: ClusterIP

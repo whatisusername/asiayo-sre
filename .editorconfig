@@ -19,6 +19,9 @@ indent_style = tab
 [*.{tf,tfvars,tftpl,hcl}]
 indent_size = 2
 
+[*.{yaml,yml}]
+indent_size = 2
+
 [Makefile]
 indent_style = tab
 

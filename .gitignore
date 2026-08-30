@@ -13,6 +13,8 @@
 
 # Terraform
 !*.tf
+!.terraform.lock.hcl
+.terraform/
 
 # Configuration and markup files
 !*.json
